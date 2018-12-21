@@ -1,0 +1,65 @@
+# -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Programming Notes
+#+DATE: \today
+
+#+TEXINFO_FILENAME:
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+#+SUBTITLE:
+#+SUBAUTHOR:
+#+TEXINFO_DIR_CATEGORY: Programming
+#+TEXINFO_DIR_TITLE: Programming Notes
+#+TEXINFO_DIR_DESC: Things related to programming
+#+TEXINFO_PRINTED_TITLE: Programming Notes
+
+#+LATEX_CLASS: report
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LATEX_COMPILER: pdflatex
+
+* Interviewing
+** TODO [[https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b][What to know for an interview]]
+   [2018-12-16 Sun]
+*** Title
+    5 things you need to know in a programming interview
+*** Author
+    Zhia Hwa Chong
+*** Date
+    June 19, 2018
+*** Intended Audience
+    This article is intended for those who are trying to start their
+    programming career, or are preparing to interview for their dream job.
+*** The List
+    1. Always think ahead
+       - INTERVIEWER:``OK, I think that looks good. Now, how would you
+                        improve this code?''
+       - Trying to assess how you think about:
+         + code quality
+         + some concerns/bottlenecks that weren’t raised in the algorithm
+           planning session
+         + how you would scale the solution at hand
+       - Being able to come up with a working solution is the bare minimum to
+         be considered for the position. These questions are basic competency
+         tests. What separates the good candidates from great is the ability to
+         think beyond what’s required.
+       - Always think one step ahead
+       - Think about:
+         + edge cases
+         + scaling issues
+         + problem areas
+         + If you’re using a recursive approach, what would happen if you have
+           a large data set?
+         + If you’re using a hashing algorithm, how do you handle collisions?
+         + How likely is that to happen, and what’s the worst case scenario?
+    2. There’s more than one answer
+    3. OOP is not dead
+    4. Craft your résumé
+    5. Communicate early and communicate often
+    6. Use abstraction
+    7. Know How to Count
+*** Resources
