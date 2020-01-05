@@ -63,3 +63,25 @@
     6. Use abstraction
     7. Know How to Count
 *** Resources
+
+* Bash                                                                 :bash:
+
+** Regular Expressions on the Command Line                          :regexp:
+:PROPERTIES:
+:date:     2020-01-04
+:END:
+
+When developing some regular expressions through trial and error on the command
+line using Bash v5 on Mac OS X, the =BASH_REMATCH= array was not working
+correctly.  It turns out that Mac OS X's default setup for Bash, function
+~update_terminal_cwd~ found in ~/etc/bashrc_Apple_Terminal~ is using a regular
+expression when printing to the command line, which was wiping out my
+=BASH_REMATCH= results every time I tried to print it.  The solution is located
+in the folling Stack Overflow answer:
+
+https://stackoverflow.com/questions/40456012/bash-loosing-bash-rematch-contents-at-the-cmd-prompt-os-x
+
+The resolution is to unset the =PROMPT_COMMAND=.
+
+Another solution is to use a different terminal program when debugging regular
+expressions.
